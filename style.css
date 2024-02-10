@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #61A3BA;
+    overflow: hidden;
+}
+.password-generator{
+    margin: 8% 15%;
+    display: flex;
+    flex-direction: column;
+}
+.password-generator h1{
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+}
+.password-generator h1 span{
+    color: #004225;
+    font-size: 41.5px;
+    margin-bottom:30px;
+}
+.input-box{
+    position: relative;
+    
+}
+.input-box input{
+    width: 400px;
+    height: 45px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+   
+}
+.input-box #copy-btn{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 367px;
+    top: 30px;
+}
+.input-box #copy-btn:hover{
+    cursor: pointer;
+}
+button{
+    width: 170px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #004225;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+button img{
+    width: 20px;
+    height: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
